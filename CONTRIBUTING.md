@@ -1,4 +1,4 @@
-# Contributing Guidelines
+# GitHub Submission Guidelines
 
 Welcome to the DevSynt Game Development Internship.
 
