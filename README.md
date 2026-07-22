@@ -64,10 +64,10 @@ feature/<github-username>/week3
 ### Examples
 
 ```
-feature/ahmed/week1
-feature/emanali/week1
-feature/muhammadbabar/week1
-feature/aurangzaib/week1
+feature/amman/week1
+feature/shakir/week1
+feature/ali/week1
+feature/haris/week1
 ```
 
 ---
