@@ -1,18 +1,18 @@
 # 🎮 DevSynt Game Development Internship
 
-Welcome to the DevSynt Game Development Internship Repository.
+Welcome to the official repository for the DevSynt Game Development Internship.
 
-This repository serves as your personal workspace throughout the internship. Every weekly assignment, project milestone, and submission must be completed within this repository using Git and GitHub best practices.
+This repository serves as the shared workspace for all interns throughout the internship. Every weekly assignment, project milestone, and submission must follow the Git and GitHub workflow defined in this repository.
 
 ---
 
 ## Internship Objectives
 
 - Learn Unity 6 LTS and C#
-- Develop clean and maintainable code
-- Learn Git and GitHub workflow
+- Develop clean, maintainable, and modular code
+- Learn Git and GitHub workflows
 - Practice industry-standard project organization
-- Collaborate using Pull Requests
+- Collaborate using branches and Pull Requests
 
 ---
 
@@ -41,23 +41,33 @@ Assets
 
 ## Weekly Workflow
 
-1. Pull latest changes.
-2. Create a feature branch.
-3. Complete the assigned task.
-4. Commit your changes.
-5. Push your branch.
-6. Create a Pull Request.
-7. Wait for review.
+1. Pull the latest changes from the `main` branch.
+2. Create your own feature branch.
+3. Complete the assigned weekly task.
+4. Commit your changes using meaningful commit messages.
+5. Push your feature branch to GitHub.
+6. Open a Pull Request targeting the `main` branch.
+7. Wait for mentor review before your Pull Request is merged.
 
 ---
 
 ## Branch Naming Convention
 
+Create a unique branch for every weekly assignment using the following format:
+
 ```
-feature/week1-unity-foundations
-feature/week2-player-controller
-feature/week3-camera-system
-feature/week4-ui
+feature/<github-username>/week1
+feature/<github-username>/week2
+feature/<github-username>/week3
+```
+
+### Examples
+
+```
+feature/ahmed/week1
+feature/emanali/week1
+feature/muhammadbabar/week1
+feature/aurangzaib/week1
 ```
 
 ---
@@ -65,13 +75,15 @@ feature/week4-ui
 ## Commit Message Examples
 
 ```
-Completed Week 1 Unity Foundations
+Initialize Unity Project
 
-Added Player Controller
+Complete Week 1 Unity Foundations
 
-Implemented Camera Movement
+Implement Player Controller
 
-Fixed Rigidbody Movement
+Add Rigidbody Physics
+
+Fix Player Movement
 ```
 
 ---
@@ -80,11 +92,21 @@ Fixed Rigidbody Movement
 
 Every submission must include:
 
-- Updated Unity project
+- Unity project updated in your feature branch
 - Proper folder structure
-- Clean code
+- Clean and readable code
 - Meaningful commit messages
-- Pull Request submission
+- A Pull Request targeting the `main` branch
+
+---
+
+## Important Notes
+
+- Do **not** work directly on the `main` branch.
+- Always create your own feature branch before starting a task.
+- Do **not** merge your own Pull Request.
+- Wait for mentor review and approval.
+- Follow the project folder structure and coding standards provided in this repository.
 
 ---
 
