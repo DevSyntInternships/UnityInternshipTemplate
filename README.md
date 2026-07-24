@@ -1,22 +1,23 @@
 # 🎮 DevSynt Game Development Internship
 
-Welcome to the official repository for the DevSynt Game Development Internship.
+Welcome to the official workspace for the **DevSynt Game Development Internship**.
 
-This repository serves as the shared workspace for all interns throughout the internship. Every weekly assignment, project milestone, and submission must follow the Git and GitHub workflow defined in this repository.
+This internship is designed to provide hands-on experience in Unity game development while following professional development practices. Throughout the internship, interns will complete weekly assignments, develop practical skills in Unity and C#, and progressively build a strong foundation in game development.
 
 ---
 
-## Internship Objectives
+# Internship Objectives
 
 - Learn Unity 6 LTS and C#
 - Develop clean, maintainable, and modular code
-- Learn Git and GitHub workflows
-- Practice industry-standard project organization
-- Collaborate using branches and Pull Requests
+- Understand industry-standard game development practices
+- Practice professional project organization
+- Build problem-solving and debugging skills
+- Complete weekly practical assignments
 
 ---
 
-## Project Structure
+# Recommended Project Structure
 
 ```
 Assets
@@ -39,77 +40,107 @@ Assets
 
 ---
 
-## Weekly Workflow
+# Weekly Workflow
 
-1. Pull the latest changes from the `main` branch.
-2. Create your own feature branch.
-3. Complete the assigned weekly task.
-4. Commit your changes using meaningful commit messages.
-5. Push your feature branch to GitHub.
-6. Open a Pull Request targeting the `main` branch.
-7. Wait for mentor review before your Pull Request is merged.
+For every weekly task, interns should follow this workflow:
 
----
-
-## Branch Naming Convention
-
-Create a unique branch for every weekly assignment using the following format:
-
-```
-feature/<github-username>/week1
-feature/<github-username>/week2
-feature/<github-username>/week3
-```
-
-### Examples
-
-```
-feature/amman/week1
-feature/shakir/week1
-feature/ali/week1
-feature/haris/week1
-```
+1. Read the weekly project brief carefully.
+2. Create or update your Unity project according to the given requirements.
+3. Follow the recommended project folder structure.
+4. Test your project thoroughly before submission.
+5. Remove unnecessary Unity-generated folders such as:
+   - Library
+   - Temp
+   - Logs
+   - Obj
+6. Compress your Unity project into a **.zip** file.
+7. Upload the compressed project to your assigned Google Drive folder.
 
 ---
 
-## Commit Message Examples
+# Google Drive Submission Structure
+
+Inside the shared **Game Development Internship** folder, every intern must create a personal folder using the following naming format:
 
 ```
-Initialize Unity Project
-
-Complete Week 1 Unity Foundations
-
-Implement Player Controller
-
-Add Rigidbody Physics
-
-Fix Player Movement
+YourName_RollNo
 ```
 
+### Example
+
+```
+Aman_BSAI-22045
+Ali_BSAI-22031
+Haris_BSAI-22018
+```
+
+Inside your personal folder, create separate folders for every week's assignments.
+
+```
+YourName_RollNo
+│
+├── Week 1
+├── Week 2
+├── Week 3
+├── Week 4
+├── Week 5
+├── Week 6
+├── Week 7
+└── Week 8
+```
+
+Upload each week's task only inside its respective folder.
+
 ---
 
-## Submission Requirements
+# Submission Requirements
 
-Every submission must include:
+Every weekly submission must include:
 
-- Unity project updated in your feature branch
-- Proper folder structure
-- Clean and readable code
-- Meaningful commit messages
-- A Pull Request targeting the `main` branch
-
----
-
-## Important Notes
-
-- Do **not** work directly on the `main` branch.
-- Always create your own feature branch before starting a task.
-- Do **not** merge your own Pull Request.
-- Wait for mentor review and approval.
-- Follow the project folder structure and coding standards provided in this repository.
+- Unity Project (.zip)
+- Proper folder hierarchy
+- Clean and readable C# code
+- All required project assets
+- Reflection Report (if requested)
 
 ---
 
-Happy Coding!
+# Before Submitting
+
+✔ Test your project.
+
+✔ Ensure there are no compilation errors.
+
+✔ Remove unnecessary Unity-generated folders:
+
+- Library
+- Temp
+- Logs
+- Obj
+
+✔ Compress the project before uploading.
+
+✔ Upload it to the correct week's folder in Google Drive.
+
+---
+
+# Important Notes
+
+- Follow all instructions provided in the weekly project brief.
+- Keep your project organized and well-structured.
+- Write clean and readable code using proper naming conventions.
+- Submit your work before the deadline.
+- Late submissions may not be considered unless prior approval has been granted.
+- If you encounter any issues, contact your mentor before the submission deadline.
+
+---
+
+# Need Help?
+
+If you have any questions regarding a task, Unity, or the submission process, feel free to ask your mentor through the official **Game Development Internship WhatsApp Community**.
+
+---
+
+Happy Coding! 🚀🎮
 
 **DevSynt Game Development Team**
