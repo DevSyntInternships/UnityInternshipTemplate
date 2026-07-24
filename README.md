@@ -63,21 +63,21 @@ For every weekly task, interns should follow this workflow:
 Inside the shared **Game Development Internship** folder, every intern must create a personal folder using the following naming format:
 
 ```
-YourName_RollNo
+YourName
 ```
 
 ### Example
 
 ```
-Aman_BSAI-22045
-Ali_BSAI-22031
-Haris_BSAI-22018
+Aman
+Ali
+Haris
 ```
 
 Inside your personal folder, create separate folders for every week's assignments.
 
 ```
-YourName_RollNo
+YourName
 │
 ├── Week 1
 ├── Week 2
